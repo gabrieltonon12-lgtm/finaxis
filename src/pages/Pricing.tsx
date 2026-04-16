@@ -79,7 +79,7 @@ export function Pricing() {
 
   const handleCheckout = (plan: Plan) => {
     if (plan === 'enterprise') {
-      window.location.href = 'mailto:vendas@finaxis.com.br'
+      window.location.href = 'mailto:vendas@gont.com.br'
       return
     }
     // Stripe checkout flow handled server-side

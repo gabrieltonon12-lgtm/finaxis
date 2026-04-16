@@ -49,6 +49,6 @@ export const usePeriodStore = create<PeriodState>()(
           periods: s.periods.map((p) => (p.id === id ? { ...p, ...data } : p)),
         })),
     }),
-    { name: 'finaxis-period' }
+    { name: 'gont-period' }
   )
 )

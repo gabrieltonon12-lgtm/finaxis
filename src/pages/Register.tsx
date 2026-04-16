@@ -36,7 +36,7 @@ export function Register() {
             <Zap size={20} className="text-[var(--bg-base)]" />
           </div>
           <h1 className="text-2xl font-bold text-[var(--text-primary)]" style={{ fontFamily: 'var(--font-display)' }}>
-            Finaxis
+            GONT
           </h1>
           <p className="text-sm text-[var(--text-secondary)] mt-1">14 dias grátis, sem cartão</p>
         </div>

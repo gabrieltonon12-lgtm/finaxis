@@ -59,7 +59,7 @@ export function Landing() {
           <div className="w-7 h-7 rounded-[var(--radius-sm)] bg-[var(--accent-teal)] flex items-center justify-center">
             <Zap size={14} className="text-[var(--bg-base)]" />
           </div>
-          <span className="font-bold text-base" style={{ fontFamily: 'var(--font-display)' }}>Finaxis</span>
+          <span className="font-bold text-base" style={{ fontFamily: 'var(--font-display)' }}>GONT</span>
         </div>
         <div className="flex-1" />
         <div className="flex items-center gap-3">
@@ -226,9 +226,9 @@ export function Landing() {
             <div className="w-6 h-6 rounded-[var(--radius-sm)] bg-[var(--accent-teal)] flex items-center justify-center">
               <Zap size={11} className="text-[var(--bg-base)]" />
             </div>
-            <span className="text-sm font-bold" style={{ fontFamily: 'var(--font-display)' }}>Finaxis</span>
+            <span className="text-sm font-bold" style={{ fontFamily: 'var(--font-display)' }}>GONT</span>
           </div>
-          <p className="text-xs text-[var(--text-muted)]">CNPJ 00.000.000/0001-00 · Finaxis Tecnologia Ltda.</p>
+          <p className="text-xs text-[var(--text-muted)]">CNPJ 00.000.000/0001-00 · GONT Tecnologia Ltda.</p>
           <div className="flex items-center gap-4 text-xs text-[var(--text-muted)]">
             <a href="#" className="hover:text-[var(--text-secondary)]">Privacidade</a>
             <a href="#" className="hover:text-[var(--text-secondary)]">Termos</a>

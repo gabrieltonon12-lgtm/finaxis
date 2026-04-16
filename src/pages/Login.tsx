@@ -31,7 +31,7 @@ export function Login() {
             <Zap size={20} className="text-[var(--bg-base)]" />
           </div>
           <h1 className="text-2xl font-bold text-[var(--text-primary)]" style={{ fontFamily: 'var(--font-display)' }}>
-            Finaxis
+            GONT
           </h1>
           <p className="text-sm text-[var(--text-secondary)] mt-1">Clareza financeira em tempo real</p>
         </div>

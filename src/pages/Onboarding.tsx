@@ -72,7 +72,7 @@ export function Onboarding() {
           <div className="w-8 h-8 rounded-[var(--radius-md)] bg-[var(--accent-teal)] flex items-center justify-center">
             <Zap size={16} className="text-[var(--bg-base)]" />
           </div>
-          <span className="font-bold text-lg" style={{ fontFamily: 'var(--font-display)' }}>Finaxis</span>
+          <span className="font-bold text-lg" style={{ fontFamily: 'var(--font-display)' }}>GONT</span>
         </div>
 
         {/* Step indicator */}

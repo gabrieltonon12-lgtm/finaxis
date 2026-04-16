@@ -37,6 +37,6 @@ export const useCompanyStore = create<CompanyState>()(
           companies: s.companies.map((c) => (c.id === id ? { ...c, ...data } : c)),
         })),
     }),
-    { name: 'finaxis-company' }
+    { name: 'gont-company' }
   )
 )
