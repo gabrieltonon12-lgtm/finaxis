@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @import "tailwindcss";
 
 :root {
@@ -25,7 +23,6 @@
 
   --positive: #00E5C3;
   --negative: #FF6B35;
-  --neutral: #8892A4;
 
   --radius-sm: 6px;
   --radius-md: 10px;
@@ -39,20 +36,21 @@
   --font-display: 'Syne', sans-serif;
   --font-mono: 'DM Mono', monospace;
   --font-body: 'Inter', sans-serif;
-
-  --sidebar-width: 240px;
-  --sidebar-collapsed: 64px;
-  --header-height: 64px;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -71,52 +69,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-.font-mono {
-  font-family: var(--font-mono) !important;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--border-default);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--border-strong);
-}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-default); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }
 
 .text-positive { color: var(--positive); }
 .text-negative { color: var(--negative); }
-.text-muted { color: var(--text-muted); }
-.text-secondary { color: var(--text-secondary); }
-
-.bg-surface { background: var(--bg-surface); }
-.bg-elevated { background: var(--bg-elevated); }
-.bg-overlay { background: var(--bg-overlay); }
-
-.border-subtle { border-color: var(--border-subtle); }
-.border-default { border-color: var(--border-default); }
-
-.glow-teal { box-shadow: var(--accent-teal-glow); }
 
 @keyframes fadeSlideUp {
   from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes pulse-teal {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
-
-@keyframes counter {
-  from { opacity: 0; transform: translateY(4px); }
-  to { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .animate-fade-slide-up {
